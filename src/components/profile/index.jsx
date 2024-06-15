@@ -30,7 +30,7 @@ function ProfilePage() {
     <div
       className={
         animate
-          ? "animate-slide-bounce w-[25%] h-auto flex flex-col gap-10 bg-white p-3 rounded-xl"
+          ? "animate-slide-bounce w-[25%] max-sm:w-full h-auto flex flex-col gap-10 bg-white p-3 rounded-xl"
           : "w-[25%] h-auto flex flex-col gap-10 bg-white p-3 rounded-xl"
       }
     >

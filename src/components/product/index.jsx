@@ -26,11 +26,11 @@ function ProductPage() {
     <div
       className={
         animate
-          ? "animate-slide-bounce w-[50%] flex flex-col gap-5 px-2"
+          ? "animate-slide-bounce w-[50%] max-sm:w-full flex flex-col gap-5 px-2"
           : "w-[50%] flex flex-col gap-5 px-2"
       }
     >
-      <div className="w-full flex justify-center gap-5 px-20">
+      <div className="w-full flex justify-center gap-5 px-20 max-sm:px-5">
         <div>
           <Lottie
             style={{ width: "110px", height: "110px" }}
@@ -249,8 +249,8 @@ function ProductPage() {
         </div>
       </div>
       <div className="w-full bg-white rounded-lg h-[4rem] flex items-center justify-center gap-1 hover:bg-[#eceff3]">
-        <span className="text-lg">🤝</span>
-        <h5 className="font-bold text-sm text-gray-700">
+        <span className="text-lg max-sm:text-sm">🤝</span>
+        <h5 className="font-bold text-sm max-sm:text-xs text-gray-700">
           Thanks for visiting, Hope to work with you very soon!
         </h5>
       </div>
